@@ -17,12 +17,6 @@ Criação do banco de dados deve ser feita e configurada através do arquivo .en
 php artisan migrate
 ```
 
-- Tokens e chaves
-```
-php artisan jwt:secret
-php artisan key:generate 
-```
-
 - Instalação dos componentes
 ```
 composer install
@@ -31,6 +25,12 @@ composer install
 - Atualização dos componentes
 ```
 composer update
+```
+
+- Tokens e chaves
+```
+php artisan jwt:secret
+php artisan key:generate 
 ```
 
 - Servidor local
