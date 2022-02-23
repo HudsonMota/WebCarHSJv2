@@ -28,6 +28,7 @@ composer update
 ```
 
 - Tokens e chaves
+```
 php artisan key:generate
 ```
 
