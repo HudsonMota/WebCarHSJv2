@@ -26,7 +26,7 @@
         <div class="ls-box-footer">
           <div class="box-header">
             <form method="post" action="{{ route('vehicle.list') }}" class="form form-inline">
-              <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+              <input type="hidden" name="_token" value="{{ csrf_token() }}" />
               <fieldset>
               </fieldset>
               <button type="submit" class="ls-btn ls-btn-sm" style="width: 150px; margin-left: auto; margin-right: auto; color: #000; font-weight: bold;">Exibir</button>
@@ -50,7 +50,7 @@
         <div class="ls-box-footer">
           <div class="box-header">
             <form method="post" action="{{ route('vehicle.list') }}" class="form form-inline">
-              <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+              <input type="hidden" name="_token" value="{{ csrf_token() }}" />
               <fieldset>
                 <label class="ls-label col-md-12">
                   <input type="text" name="situacao" value="MANUTENÇÃO" style="display: none;">

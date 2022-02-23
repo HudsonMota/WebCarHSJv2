@@ -5,7 +5,7 @@
 <h1 class="ls-title-intro ls-ico-plus">Incluir Despesa</h1>
 <div class="ls-box">
     <form method="POST" action="{{ route('expense.postAdd') }}" class="ls-form row">
-        <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
         <fieldset class="col-md-12">
 
             <div class="col-md-12">

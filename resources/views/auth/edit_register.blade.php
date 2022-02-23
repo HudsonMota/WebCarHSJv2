@@ -4,7 +4,7 @@
 <h1 class="ls-title-intro ls-ico-dashboard">Editar usuário</h1>
 <div class="ls-box">
     <form method="POST" action="{{route('user.edit',$user->id)}}" class="ls-form row">
-        <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
         <fieldset class="col-md-12">
             <div class="col-md-12">
                 <div class="form-group col-md-3">

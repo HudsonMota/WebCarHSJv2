@@ -5,7 +5,7 @@
 <h1 class="ls-title-intro ls-ico-plus">Editar Despesa</h1>
 <div class="ls-box">
   <form method="POST" action="{{route('expense.edit',$expense->id)}}" class="ls-form row">
-    <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+    <input type="hidden" name="_token" value="{{ csrf_token() }}" />
     <div class="col-md-12">
       <div class="col-md-12">
 

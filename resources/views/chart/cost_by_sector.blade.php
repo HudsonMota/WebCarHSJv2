@@ -29,7 +29,7 @@
       <div class="col-md-12">
         <div class="box-header">
           <form method="post" action="{{ route('sector-cost') }}" class="form form-inline">
-            <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+            <input type="hidden" name="_token" value="{{ csrf_token() }}" />
             <fieldset class="col-md-12">
               <div class="col-md-4"></div>
               <label class="ls-label col-md-8" style="margin-bottom: 20px;">

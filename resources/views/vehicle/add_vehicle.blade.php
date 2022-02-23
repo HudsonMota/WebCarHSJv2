@@ -7,7 +7,7 @@
   <hr>
   <h5 class="ls-title-5">Cadastrar Veículo:</h5>
   <form method="POST" action="{{ route('vehicle.postAdd') }}" class="ls-form row">
-    <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+    <input type="hidden" name="_token" value="{{ csrf_token() }}" />
     <fieldset>
 
       <div class="col-md-12">

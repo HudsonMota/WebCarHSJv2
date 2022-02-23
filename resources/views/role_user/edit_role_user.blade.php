@@ -7,7 +7,7 @@
   <hr>
   <h5 class="ls-title-5">Editar custo:</h5>
   <form method="POST" action="{{route('roleuser.edit',$role_user->id)}}" class="ls-form row">
-    <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+    <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 
     <fieldset>
 

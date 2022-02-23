@@ -4,7 +4,7 @@
 <h1 class="ls-title-intro ls-ico-code">Solicitar Veiculo</h1>
 
 <form method="POST" action="{{ route('solicitacao.postEdit', $vehiclerequest->id) }}" class="ls-form row" id="add">
-	<input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+	<input type="hidden" name="_token" value="{{ csrf_token() }}" />
 	<fieldset id="field01">
 		<div class="ls-box">
 			<div class="col-md-12">

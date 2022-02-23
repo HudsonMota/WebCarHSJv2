@@ -7,7 +7,7 @@
     <h5 class="ls-title-5">Solicitação de uso de veiculos oficiais:</h5>
     <hr>
     <form method="POST" action="{{route('driver.edit',$driver->id)}}" class="ls-form row">
-        <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 
         <fieldset>
             <div class="col-md-12">

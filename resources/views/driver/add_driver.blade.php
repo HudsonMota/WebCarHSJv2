@@ -8,7 +8,7 @@
   <hr>
 
   <form method="POST" action="{{ route('driver.postAdd') }}" class="ls-form row" id="add" data-ls-module="form">
-    <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+    <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 
     <fieldset>
       <div class="col-md-12">

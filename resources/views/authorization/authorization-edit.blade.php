@@ -145,7 +145,7 @@
     </div>
     <div class="ls-modal-body">
       <form method="POST" action="{{ route('authorization.postEdit', $scriptauthorized->id) }}" class="ls-form row" id="add">
-        <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+        <input type="hidden" name="_token" value="{{ csrf_token() }}" />
         <fieldset id="field01">
           <div class="col-md-12">
             <div class="ls-box">
