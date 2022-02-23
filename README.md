@@ -28,10 +28,18 @@ composer update
 ```
 
 - Tokens e chaves
-php artisan key:generate 
+php artisan key:generate
 ```
 
 - Servidor local
 ```
 php artisan serve
+```
+
+- Login
+```
+hsj.developmentsoftware@gmail.com
+```
+```
+adm@123#
 ```
