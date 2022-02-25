@@ -34,11 +34,3 @@ php artisan key:generate
 ```
 php artisan serve
 ```
-
-- Login
-```
-hsj.developmentsoftware@gmail.com
-```
-```
-adm@123#
-```
