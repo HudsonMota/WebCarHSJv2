@@ -1,12 +1,12 @@
-CREATE DATABASE IF NOT EXISTS `db_webcar_hsj`
+CREATE DATABASE IF NOT EXISTS `db_webcar_v2`
 /*!40100 DEFAULT CHARACTER SET latin1 */
 ;
 
-USE `db_webcar_hsj`;
+USE `db_webcar_v2`;
 
 -- MySQL dump 10.13  Distrib 8.0.22, for Win64 (x86_64)
 --
--- Host: localhost    Database: db_webcar_hsj
+-- Host: localhost    Database: db_webcar_v2
 -- ------------------------------------------------------
 -- Server version	5.7.31
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */
@@ -1020,10 +1020,10 @@ VALUES
 UNLOCK TABLES;
 
 --
--- Dumping events for database 'db_webcar_hsj'
+-- Dumping events for database 'db_webcar_v2'
 --
 --
--- Dumping routines for database 'db_webcar_hsj'
+-- Dumping routines for database 'db_webcar_v2'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */
 ;
