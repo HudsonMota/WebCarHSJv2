@@ -3,7 +3,7 @@
 @section('content')
     <fieldset>
 
-        <h1 class="ls-title-intro ls-ico-question">Tutorial do Sistema</h1>
+        <h1 class="ls-title-intro ls-ico-question"><b>Tutorial do Sistema</b></h1>
 
         <br>
 

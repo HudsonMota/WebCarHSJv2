@@ -1,7 +1,7 @@
 @extends('layouts.application')
 
 @section('content')
-<h1 class="ls-title-intro ls-ico-home">Bem vindo ao WebCar HSJ</h1>
+<h1 class="ls-title-intro ls-ico-home">Bem vindo ao WebCar</h1>
 
 <div class="ls-box ls-board-box">
   <header class="ls-info-header">

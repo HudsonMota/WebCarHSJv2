@@ -73,7 +73,7 @@
             <div class="ls-collapse-body" id="0">
                 <font size="6px">
                     <p>
-                    <h3 class="ls-title-3">Versão 1.0 WebCar HSJ</h3>
+                    <h3 class="ls-title-3">Versão 1.0 WebCar</h3>
                     <br>
                     <p style="font-size: 18px;">Com a necessidade de atualizar seus processos internos, o Hospital São José
                     </p>
@@ -104,7 +104,7 @@
                 <font size="6px">
                     <p>
                         <!--BODY-->
-                    <h3 class="ls-title-3">Versão 2.0 WebCar HSJ</h3>
+                    <h3 class="ls-title-3">Versão 2.0 WebCar</h3>
                     <br>
                     <p style="font-size: 18px;">
 

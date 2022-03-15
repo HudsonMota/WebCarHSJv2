@@ -13,7 +13,7 @@
         type="text/css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="icon" href="{{ URL::asset('favicon.ico') }}" type="image/x-icon" />
-    <title>WebCar HSJ</title>
+    <title>WebCar</title>
 </head>
 
 <body>
@@ -41,12 +41,8 @@
 
         <h1 class="ls-brand-name">
             <div class="container-fluid">
-                <!-- <div class="form-group col-md-6" style="width: 200px; height: 50px; top: -8px; background-color: #fff;"> -->
-                <img src="{{ URL::asset('images/LogoHSJ.png') }}" alt="profile Pic"
-                    style="width: 160px; height: 42px; top: -8px; background-color: #fff;">
-
-                <!-- </div> -->
-
+                <img src="{{ URL::asset('images/LogoMessejana.png') }}" alt="profile Pic"
+                    style="width: 180px; margin-top:-8px; background-color:#fff;">
             </div>
         </h1>
     </div>
@@ -86,7 +82,7 @@
                                         ->count(); ?>
                                 </small>
                                 &nbsp;
-                                <small 
+                                <small
                                     style="border: 1px solid green; padding: 0px 4px; border-radius: 50px; background-color: green; color:#fff; position: relative; left: 50px;">
                                     <?php echo DB::table('vehiclerequests')
                                         ->where('statussolicitacao', 'AUTORIZADA')
@@ -105,13 +101,13 @@
                                     </a>
                                 </li>
                                 <li><a href="{{ route('authorizations') }}">Listar Solicitações <br>e Roteios
-                                    <small
-                                    style="border: 1px solid green; padding: 0px 4px; border-radius: 50px; background-color: green; color:#fff; position: relative; left: 50px;">
-                                    <?php echo DB::table('vehiclerequests')
-                                        ->where('statussolicitacao', 'AUTORIZADA')
-                                        ->count(); ?>
-                                </small>
-                                </a></li>
+                                        <small
+                                            style="border: 1px solid green; padding: 0px 4px; border-radius: 50px; background-color: green; color:#fff; position: relative; left: 50px;">
+                                            <?php echo DB::table('vehiclerequests')
+                                                ->where('statussolicitacao', 'AUTORIZADA')
+                                                ->count(); ?>
+                                        </small>
+                                    </a></li>
                             </ul>
                         </li>
                     @endcan
