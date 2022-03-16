@@ -126,7 +126,7 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
-        Str::slug(env('APP_NAME', 'WebCarHSJ'), '_').'_session'
+        Str::slug(env('APP_NAME', 'WebCarv2'), '_').'_session'
     ),
 
     /*

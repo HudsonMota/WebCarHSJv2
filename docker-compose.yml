@@ -15,7 +15,7 @@ services:
       DB_PORT: 3306
       DB_DATABASE: db_webcar_v2
       DB_USERNAME: root
-      DB_PASSWORD: root@hsj@2328
+      DB_PASSWORD: root@adm@2328
     volumes:
       - ./webcarv2/public:/app/public
     ports:
@@ -27,7 +27,7 @@ services:
     container_name: mysqls_wcv2
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root@hsj@2328
+      MYSQL_ROOT_PASSWORD: root@adm@2328
       MYSQL_DATABASE: db_webcar_v2
     ports:
       - 3311:3306
